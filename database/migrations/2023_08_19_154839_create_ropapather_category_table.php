@@ -11,19 +11,15 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('ropamujer_category', function (Blueprint $table) {
+        Schema::create('ropapather_category', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->unsignedBigInteger('parent_id')->nullable();
             $table->timestamps();
         });
     }
-
-    /**
-     * Reverse the migrations.
-     */
     public function down(): void
     {
-        Schema::dropIfExists('ropa_mujer_category');
+        Schema::dropIfExists('ropa_hombre_category');
     }
 };

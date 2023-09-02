@@ -8,10 +8,9 @@ use Livewire\Component;
 class PaginaPerfilAdministrador extends Component
 {
 
-    public $categories;
+
     public function render()
     {
-        $this->categories =Category::all();
         return view('livewire.administrador.pagina-perfil-administrador');
     }
 }

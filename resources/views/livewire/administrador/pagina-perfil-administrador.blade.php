@@ -1040,6 +1040,8 @@
                 </div>
             </div>
         </section>
+
+
         <section class="popular-categories section-padding mt-15 mb-25">
             <div class="container wow fadeIn animated">
                 <h3 class="section-title mb-20"><span>Popular</span> Categories</h3>
